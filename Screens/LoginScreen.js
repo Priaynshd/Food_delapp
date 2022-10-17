@@ -1,10 +1,7 @@
-// screens/BlogDetails.js
 import * as React from 'react';
 import { View, useWindowDimensions, SafeAreaView, Text ,Image,Dimensions,TextInput,TouchableOpacity} from 'react-native';
 import { TabView, SceneMap,TabBar } from 'react-native-tab-view';
-function onLogInPress  (navigation)  {
-  navigation.navigate('Home')
-}
+
  
 const renderTabBar = props => (
   <TabBar
